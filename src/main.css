@@ -1,0 +1,39 @@
+body {
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  color: darkgrey;
+}
+
+.container {
+  margin-top: 30px;
+  -webkit-filter: contrast(30);
+  filter: contrast(30);
+  box-shadow: 0 0 100px black;
+  background-color: black;
+  padding: 100px;
+  position: relative;
+  color: mix(white, black, 50%);
+  border: 2px solid #555;
+
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: middle;
+
+  transition: background-color 2s linear;
+}
+
+.circle {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -webkit-filter: blur(25px);
+  filter: blur(25px);
+  background-color: white;
+}
