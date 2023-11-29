@@ -76,7 +76,7 @@ function App() {
 
   const newWindow = () => {
     console.log(location);
-    window.open(`${location.origin}/?id=${parseInt(windowId) + 1}`, '_blank', 'width=400,height=400')
+    window.open(`${location.origin}/?id=${parseInt(windowId) + 1}`, '_blank', 'width=600,height=600')
   }
 
   // constants
